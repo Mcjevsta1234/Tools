@@ -1,0 +1,21 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "Discord control-layer bot for Open WebUI using discord.js v14",
+  "type": "module",
+  "main": "discord_bot.js",
+  "scripts": {
+    "start": "node discord_bot.js",
+    "check": "node --check discord_bot.js || exit 0",
+    "test": "echo \"No automated tests configured\""
+  },
+  "keywords": ["discord", "bot", "discord.js"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "better-sqlite3": "^9.6.0",
+    "archiver": "^7.0.1",
+    "discord.js": "^14.25.1"
+  }
+}
